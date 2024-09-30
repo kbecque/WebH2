@@ -1,8 +1,13 @@
+
+@font-face {
+	font-family: myFont;
+	src: url('Acme-Regular.ttf');
+}
+
 body {
-	font-family: Helvetica, Verdana, sans-serif;
+	font-family: 'myFont',Helvetica, Verdana, sans-serif;
 	background-color: #1A1E26;
 	color:white;
-	
 	}
 
 header, aside, footer, article {
