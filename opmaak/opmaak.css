@@ -6,7 +6,7 @@
 
 body {
 	
-	font-family: 'myFont', sans-serif;
+	font-family: 'myFont',Helvetica, Verdana, sans-serif;
 	background-color: #1A1E26;
 	color:white;
 	}
@@ -44,6 +44,11 @@ aside {
 	margin-top: -30px;
 	margin-right: 10px;
 	}
+
+	/*Misschien niet de beste manier...*/
+aside.next{
+	margin-top: 10px;
+}
 
 article {
 	
