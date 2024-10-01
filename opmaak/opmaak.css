@@ -1,11 +1,12 @@
 
 @font-face {
-	font-family: myFont;
-	src: url('Acme-Regular.ttf');
+	font-family: 'myFont';
+	src: url('Acme-Regular.ttf'), format('ttf');
 }
 
 body {
-	font-family: 'myFont',Helvetica, Verdana, sans-serif;
+	
+	font-family: 'myFont', sans-serif;
 	background-color: #1A1E26;
 	color:white;
 	}
@@ -35,6 +36,7 @@ h1 {
 	}
 
 aside {
+	color:  #1A1E26; 
 	float: right;
 	width: 20%;
 	background-color: #AAB1BF;
@@ -44,10 +46,16 @@ aside {
 	}
 
 article {
-	float: left;
+	
+	column-width: 12em;
+	column-gap: 2cap;
+	float:left;	
 	width: 70%;
 	margin: 10px;
 	margin-left: 0px;
+	/*teks links en rechts uitvullen*/
+	text-align: justify;
+	
 	padding: 10px;
 	background-color: #686673;	/*lichtgrijs*/
 	}
